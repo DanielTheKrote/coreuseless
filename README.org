@@ -1,0 +1,17 @@
+#+title: coreuseless
+#+author: Daniel Maturano (carlosdanielmaturano@proton.me)
+
+* coreuseless, the best clone from gnu's coreutils  
+
+** What is this repo about
+this repo contains clones from the gnu's coretutils,
+shuch as "false" and "whoami", it's built with the unistd library,
+so it should work with most of the unix OSs
+
+** Building:
+*** Note: the Makefile still incomplete, so it will probably need some extra tweaking
+#+begin_src bash
+$ make  # Build all the binaries
+- 
+$ make clean  # Clean all binaries
+#+end_src
