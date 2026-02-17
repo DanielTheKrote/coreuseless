@@ -2,7 +2,7 @@
 #include <pwd.h>
 #include <string.h>
 #include <stdio.h>
-#define EXIT_ERROR 1
+#include <stdlib.h>
 
 int main(void)
 {
@@ -13,7 +13,8 @@ int main(void)
 	char buffer[200];
 	sprintf(buffer, "Could not get a user with a '%d' uid! Exiting...", user_id);
 	write(2, buffer, strlen(buffer));
-	return EXIT_ERROR;
+	_exit(EXIT_FAILURE);
     }
     write(1, p->pw_name, strlen(p->pw_name));
+    _exit(EXIT_SUCCESS);
 }
