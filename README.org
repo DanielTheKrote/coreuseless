@@ -15,3 +15,7 @@ $ make  # Build all the binaries
 - 
 $ make clean  # Clean all binaries
 #+end_src
+
+
+** License
+This repo is under the [[./LICENSE][GPLV3]] license.
