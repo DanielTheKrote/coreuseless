@@ -1,7 +1,5 @@
-#+title: coreuseless
+#+title: Coreuseless, the best clone from gnu's coreutils  
 #+author: Daniel Maturano (carlosdanielmaturano@proton.me)
-
-* coreuseless, the best clone from gnu's coreutils  
 
 ** What is this repo about
 this repo contains clones from the gnu's coretutils,
