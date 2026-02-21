@@ -23,13 +23,13 @@ long convert_arg(char* arg)
     
     if (is_invalid_number)
     {
-		char buffer[1000];
-		sprintf(buffer, "Error: Invalid Value. Trying to convert %s to a long!", arg);
-		write(1, buffer, strlen(buffer));
-		_exit(EXIT_FAILURE);
+        char buffer[1000];
+        sprintf(buffer, "Error: Invalid Value. Trying to convert %s to a long!", arg);
+        write(1, buffer, strlen(buffer));
+        _exit(EXIT_FAILURE);
     }
     return result;
-}	
+}   
 
 int main(int argc, char** argv)
 {
@@ -37,11 +37,11 @@ int main(int argc, char** argv)
     
     if (argc < 2)
     {
-		show_help();
-		_exit(EXIT_FAILURE);
+        show_help();
+        _exit(EXIT_FAILURE);
     }
     
     count = 0;
     while (++count < argc)
-		sleep(convert_arg(argv[count]));
+        sleep(convert_arg(argv[count]));
 }
