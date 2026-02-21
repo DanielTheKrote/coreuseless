@@ -37,11 +37,11 @@ int main(int argc, char** argv)
     
     if (argc < 2)
     {
-	show_help();
-	_exit(EXIT_FAILURE);
+		show_help();
+		_exit(EXIT_FAILURE);
     }
     
     count = 0;
     while (++count < argc)
-	sleep(convert_arg(argv[count]));
+		sleep(convert_arg(argv[count]));
 }

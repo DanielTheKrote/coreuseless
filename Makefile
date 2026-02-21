@@ -2,7 +2,7 @@ CC=gcc
 SRCDIR=src
 
 OUTDIR=bin
-CFLAGS=-Wall -Werror -std=c11
+CFLAGS=-Wall -Werror -std=gnu99
 LDFLAGS=
 SOURCES=$(wildcard $(SRCDIR)/*.c)
 EXECUTABLES=$(patsubst $(SRCDIR)%.c,$(OUTDIR)%,$(SOURCES))
