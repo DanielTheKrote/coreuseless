@@ -2,9 +2,10 @@
 #+author: Daniel Maturano (carlosdanielmaturano@proton.me)
 
 ** What is this repo about
-this repo contains clones from the gnu's coretutils,
-shuch as "false" and "whoami", it's built with the unistd library,
-so it should work with most of the unix OSs
+this repo contains clones from the GNU's coreutils,
+such as "false" and "whoami", it's only tested for linux machines,
+maybe it works on other OSs. 
+
 
 ** Building:
 *** Note: the Makefile still incomplete, so it will probably need some extra tweaking
